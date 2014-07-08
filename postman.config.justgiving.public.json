@@ -226,7 +226,134 @@
       "id": "79241d48-320f-28d9-b72e-35d18e44d2c5",
       "name": "JustGiving - Charity",
       "timestamp": 1404828372182,
-      "requests": []
+      "requests": [
+        {
+          "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
+          "id": "35589f76-3495-6beb-1fb4-0d4bdf42e9b6",
+          "name": "GetCharityDonations",
+          "description": "Retrieve top 4 recently promoted charity donations",
+          "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/donations",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404830966100
+        },
+        {
+          "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
+          "id": "4c87a7bb-8031-5855-2ef3-47b4244ba169",
+          "name": "AuthenticateCharityAccount",
+          "description": "Validates a set of supplied charity user credentials against the JustGiving database. It is not recommended to use this for authentication in your own application, but it can be used to verify credentials before attempting to use them.",
+          "url": "https://api-sandbox.justgiving.com/v1/charity/authenticate",
+          "method": "POST",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404830871186
+        },
+        {
+          "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
+          "id": "4d90609f-cadf-d26f-bd9f-2ceb66eaf130",
+          "name": "CharityCategories",
+          "description": "Retrieves charity categories.",
+          "url": "https://api-sandbox.justgiving.com/v1/charity/categories",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831445897
+        },
+        {
+          "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
+          "id": "5e302102-2a05-5819-5c30-56c03874a824",
+          "name": "CharityAppendToFundraisingPageAttribution",
+          "description": "Appends text to the attribution of a of a Fundraising Page. Typically used for a list of team members.\n\n{pageShortName} - Would be replaced with the short page url that uniquely identifies the page to the user. This is typically their name such as \"John-Smith\".",
+          "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/pages/{pageShortName}/attribution",
+          "method": "POST",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831225664
+        },
+        {
+          "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
+          "id": "68618fb1-a62b-0b5b-b8d0-b9fa0141b47c",
+          "name": "GetCharityById",
+          "description": "Returns a lightweight charity profile for a given charity Id.",
+          "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404830804400
+        },
+        {
+          "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
+          "id": "6a394d23-0ce1-5dc3-9f7a-5d5e9f1533fd",
+          "name": "CharityUpdateFundraisingPageAttribution",
+          "description": "Replaces the attribution of a of a Fundraising Page. Typically used for a list of team members.\n\n{pageShortName} - Would be replaced with the short page url that uniquely identifies the page to the user. This is typically their name such as \"John-Smith\".",
+          "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/pages/{pageShortName}/attribution",
+          "method": "PUT",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831184589
+        },
+        {
+          "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
+          "id": "885ed148-6a4d-dc87-1dca-8d0768f5df27",
+          "name": "GetEventsByCharityId",
+          "description": "Retrieves paginated events for a charity.",
+          "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/events",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404830932373
+        },
+        {
+          "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
+          "id": "8e3f7272-22db-11e4-0d1c-c0996ca0be53",
+          "name": "CharityDeleteFundraisingPageAttribution",
+          "description": "Deletes the attribution of a of a Fundraising Page. Typically used for a list of team members.\n\n{pageShortName} - Would be replaced with the short page url that uniquely identifies the page to the user. This is typically their name such as \"John-Smith\".",
+          "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/pages/{pageShortName}/attribution",
+          "method": "DELETE",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831046013
+        },
+        {
+          "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
+          "id": "dc4dedb9-9f85-96ad-3f07-fcaaf3fc9cee",
+          "name": "CharityGetFundraisingPageAttribution",
+          "description": "Retrieves the attribution of a of a Fundraising Page. Typically used for a list of team members.",
+          "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/pages/{pageShortName}/attribution",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831314666
+        }
+      ]
     },
     {
       "id": "9bcb93da-a70a-3a03-feb6-0d22aee75a30",
@@ -238,13 +365,43 @@
       "id": "9ea080bf-ed99-99de-215d-9a246cf1494b",
       "name": "JustGiving - Currency",
       "timestamp": 1404828502662,
-      "requests": []
+      "requests": [
+        {
+          "collectionId": "9ea080bf-ed99-99de-215d-9a246cf1494b",
+          "id": "f13c1c69-260c-c678-8613-4989014b5eec",
+          "name": "GetValidCurrencyCodes",
+          "description": "Returns a list of allowable currency codes for use in page creation.",
+          "url": "https://api-sandbox.justgiving.com/v1/fundraising/currencies",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831512746
+        }
+      ]
     },
     {
       "id": "a74f88b3-9f79-21f6-44ad-0a05420b15f6",
       "name": "JustGiving - Countires",
       "timestamp": 1404828389142,
-      "requests": []
+      "requests": [
+        {
+          "collectionId": "a74f88b3-9f79-21f6-44ad-0a05420b15f6",
+          "id": "6e809876-9d85-bce7-d072-cddd85dbae61",
+          "name": "ListCountries",
+          "description": "A list of allowable countries for use when registering a new user account. You can use either the country name or its corresponding ISO 3166-1 two-letter country code.",
+          "url": "https://api-sandbox.justgiving.com/v1/countries",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831433338
+        }
+      ]
     },
     {
       "id": "acf44d99-0632-4c95-592f-e929d06681a8",
@@ -256,7 +413,36 @@
       "id": "b0cb5e5a-e765-ca93-c737-f552e99d53e3",
       "name": "JustGiving - Donation",
       "timestamp": 1404828514111,
-      "requests": []
+      "requests": [
+        {
+          "collectionId": "b0cb5e5a-e765-ca93-c737-f552e99d53e3",
+          "id": "44915869-b1e7-922d-0fa7-6809eec68007",
+          "name": "RetrieveDonationStatus",
+          "description": "Gets the status of a donation by donationId. This API call is depricated and will be removed in V2 of the API. All of the information available here is available in the RetrieveDonationDetails resource.",
+          "url": "https://api-sandbox.justgiving.com/v1/donation/{donationId}/status",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831713719
+        },
+        {
+          "collectionId": "b0cb5e5a-e765-ca93-c737-f552e99d53e3",
+          "id": "693f77ec-01c4-28b4-58b2-04cb36a6c03c",
+          "name": "GetValidCurrencyCodes",
+          "description": "Gets the details of a donation by donationId.",
+          "url": "https://api-sandbox.justgiving.com/v1/donation/{donationId}",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831583810
+        }
+      ]
     },
     {
       "id": "f2c33509-db19-0242-6619-9f1a9b517d0d",
@@ -268,7 +454,50 @@
       "id": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
       "name": "JustGiving - Event",
       "timestamp": 1404828531684,
-      "requests": []
+      "requests": [
+        {
+          "collectionId": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
+          "id": "3bb1ba72-53d6-5212-2e32-75d47e35a5ef",
+          "name": "RegisterEvent",
+          "description": "Creates an event on JustGiving allowing you to programatically create pages for events you manage. Currently, these events will not show up in the JustGiving event search, this functionality will expand in the future. Please try to prevent creating duplicate events, or duplicate existing events (don't create your own London Marathon event!)",
+          "url": "https://api-sandbox.justgiving.com/v1/event/{eventId}/pages",
+          "method": "POST",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831817396
+        },
+        {
+          "collectionId": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
+          "id": "45ac4cfb-db88-fbfe-2a73-40d6f6ec157f",
+          "name": "GetEventById",
+          "description": "Retrieves an event.",
+          "url": "https://api-sandbox.justgiving.com/v1/event/{eventId}",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831762735
+        },
+        {
+          "collectionId": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
+          "id": "8df631a6-017b-ba73-8afc-c178bd387029",
+          "name": "GetPagesForEvent",
+          "description": "Retrieves a collection of page summaries that are assigned to a specific event",
+          "url": "https://api-sandbox.justgiving.com/v1/event/{eventId}/pages",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831790996
+        }
+      ]
     }
   ],
   "environments": [],
