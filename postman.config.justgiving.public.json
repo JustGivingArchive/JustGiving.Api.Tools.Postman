@@ -5,19 +5,176 @@
       "id": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
       "name": "JustGiving - Search",
       "timestamp": 1404828591692,
-      "requests": []
+      "requests": [
+        {
+          "collectionId": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+          "id": "86bada3b-32eb-b4e4-d496-5945316b7f6f",
+          "name": "FundraiserSearch",
+          "description": "",
+          "url": "https://api-sandbox.justgiving.com/v1/fundraising/search",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834184549
+        },
+        {
+          "collectionId": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+          "id": "8d9e83be-c47a-6cf5-729d-16de5c132e93",
+          "name": "InMemorySearch",
+          "description": "In Beta - Search for a remembered person\n\nUse the uri in next and prev to easily page your results.",
+          "url": "https://api-sandbox.justgiving.com/v1/remember/search",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834210681
+        },
+        {
+          "collectionId": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+          "id": "8dfb8e03-cbb9-a7b1-d9de-4ddf973e9634",
+          "name": "TeamSearch",
+          "description": "Search for a team\n\nUse the uri in next and prev to easily page your results.",
+          "url": "https://api-sandbox.justgiving.com/v1/team/search",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834237741
+        },
+        {
+          "collectionId": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+          "id": "bcc550e8-348a-44d9-53df-b3b1447306ad",
+          "name": "EventSearch",
+          "description": "Searches for events by name.\n\nUse the uri in next and prev to easily page your results.",
+          "url": "https://api-sandbox.justgiving.com/v1/event/search",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834121825
+        },
+        {
+          "collectionId": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+          "id": "bda0620a-20a9-5a5f-a01a-f90cde2f7e3f",
+          "name": "CharitySearch",
+          "description": "Searches for charities by charity id, category id, name or registration number.\n\nUse the uri in next and prev to easily page your results.",
+          "url": "https://api-sandbox.justgiving.com/v1/charity/search",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834132232
+        }
+      ]
     },
     {
       "id": "3080e64e-f313-9f69-c98f-34a1d0345e60",
       "name": "JustGiving - Team",
       "timestamp": 1404828613461,
-      "requests": []
+      "requests": [
+        {
+          "collectionId": "3080e64e-f313-9f69-c98f-34a1d0345e60",
+          "id": "0b64356a-a657-36db-b45c-ea27bc10f359",
+          "name": "CreateOrUpdateTeam",
+          "description": "",
+          "url": "https://api-sandbox.justgiving.com/v1/team/{teamShortName}",
+          "method": "PUT",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834523629
+        },
+        {
+          "collectionId": "3080e64e-f313-9f69-c98f-34a1d0345e60",
+          "id": "5a641b3c-0ef0-4088-2fb2-827089bc789a",
+          "name": "GetTeam",
+          "description": "Retrieves an team.",
+          "url": "https://api-sandbox.justgiving.com/v1/team/{teamShortName}",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834471197
+        },
+        {
+          "collectionId": "3080e64e-f313-9f69-c98f-34a1d0345e60",
+          "id": "8302387e-7e45-0ae5-c6fa-bdc3335d7626",
+          "name": "JoinTeam",
+          "description": "",
+          "url": "https://api-sandbox.justgiving.com/v1/team/join/{teamShortName}",
+          "method": "PUT",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834578124
+        },
+        {
+          "collectionId": "3080e64e-f313-9f69-c98f-34a1d0345e60",
+          "id": "bfc156ee-27a5-e0c2-028f-dfda4850d4ba",
+          "name": "CheckIfTeamExists",
+          "description": "",
+          "url": "https://api-sandbox.justgiving.com/v1/team/{teamShortName}",
+          "method": "HEAD",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834483131
+        }
+      ]
     },
     {
       "id": "3424ec53-9efc-6360-73b4-dee9358b14d2",
       "name": "JustGiving - Sms",
       "timestamp": 1404828604189,
-      "requests": []
+      "requests": [
+        {
+          "collectionId": "3424ec53-9efc-6360-73b4-dee9358b14d2",
+          "id": "76609e07-f2a8-b5b7-deff-6a49c2d64ab8",
+          "name": "RetrievePageSmsCode",
+          "description": "Retrieves the SMS short code for a fundraising page.",
+          "url": "https://api-sandbox.justgiving.com/v1/fundraising/pages/{pageShortName}/sms",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834352757
+        },
+        {
+          "collectionId": "3424ec53-9efc-6360-73b4-dee9358b14d2",
+          "id": "9b9aef62-0d84-fdc3-3fa7-b60842c7b128",
+          "name": "UpdatePageSmsCode",
+          "description": "Updates the SMS short code for a fundraising page.",
+          "url": "https://api-sandbox.justgiving.com/v1/fundraising/pages/{pageShortName}/sms",
+          "method": "PUT",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834393432
+        }
+      ]
     },
     {
       "id": "6ab7488a-e00b-0564-055c-8d5d5cbb2745",
@@ -71,7 +228,7 @@
           "id": "2779a0e4-3d65-7321-d79f-ec583176b99c",
           "name": "RequestPasswordReminder",
           "description": "Retrieves the currently authenticated users account summary.",
-          "url": "https://api-sandbox.justgiving.com/v1/account/{email}/requestpasswordreminder",
+          "url": "https://api-sandbox.justgiving.com/v1/account/{appId}/requestpasswordreminder",
           "method": "GET",
           "headers": "x-api-key: {appId}\n",
           "data": [],
@@ -127,7 +284,7 @@
           "id": "729cf5e2-f896-0f64-d634-99fe06f74f87",
           "name": "AccountAvailabilityCheck",
           "description": "Retrieves the currently authenticated users account summary.",
-          "url": "https://api-sandbox.justgiving.com/v1/account/{email}",
+          "url": "https://api-sandbox.justgiving.com/v1/account/{appId}",
           "method": "HEAD",
           "headers": "x-api-key: {appId}\n",
           "data": [],
@@ -169,7 +326,7 @@
           "id": "b42a175d-d779-3a5c-dcf0-5735fbaffe9f",
           "name": "GetFundraisingPagesForUser",
           "description": "Retrieves the currently authenticated users account summary.",
-          "url": "https://api-sandbox.justgiving.com/v1/account/{email}/pages",
+          "url": "https://api-sandbox.justgiving.com/v1/account/{appId}/pages",
           "method": "GET",
           "headers": "x-api-key: {appId}\n",
           "data": [],
@@ -674,7 +831,22 @@
       "id": "acf44d99-0632-4c95-592f-e929d06681a8",
       "name": "JustGiving - OneSearch",
       "timestamp": 1404828569269,
-      "requests": []
+      "requests": [
+        {
+          "collectionId": "acf44d99-0632-4c95-592f-e929d06681a8",
+          "id": "c7886859-705b-ec93-8806-763c96a91600",
+          "name": "OneSearchIndex",
+          "description": "Searches across all JustGiving fundraising pages, events, charities and YIMBY projects.",
+          "url": "https://api-sandbox.justgiving.com/v1/onesearch",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404833948339
+        }
+      ]
     },
     {
       "id": "b0cb5e5a-e765-ca93-c737-f552e99d53e3",
@@ -715,7 +887,36 @@
       "id": "f2c33509-db19-0242-6619-9f1a9b517d0d",
       "name": "JustGiving - Project",
       "timestamp": 1404828581374,
-      "requests": []
+      "requests": [
+        {
+          "collectionId": "f2c33509-db19-0242-6619-9f1a9b517d0d",
+          "id": "14e44a15-eac8-826f-7685-efc30eeeed08",
+          "name": "Projects",
+          "description": "Searches for community fundraising projects\n\nUse the uri in next and prev to easily page your results.",
+          "url": "https://api-sandbox.justgiving.com/v1/project",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834007245
+        },
+        {
+          "collectionId": "f2c33509-db19-0242-6619-9f1a9b517d0d",
+          "id": "77a8f20e-baaa-23e7-df93-85b51aeb8553",
+          "name": "GetGlobalProjectById",
+          "description": "Returns a global project by it's project Id",
+          "url": "https://api-sandbox.justgiving.com/v1/project",
+          "method": "GET",
+          "headers": "x-api-key: {appId}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834031884
+        }
+      ]
     },
     {
       "id": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
