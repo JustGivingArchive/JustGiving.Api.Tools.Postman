@@ -305,7 +305,7 @@
           "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404918466553
+          "time": 1404918622138
         },
         {
           "collectionId": "6ab7488a-e00b-0564-055c-8d5d5cbb2745",
@@ -391,12 +391,12 @@
           "description": "Retrieve top 4 recently promoted charity donations",
           "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/donations",
           "method": "GET",
-          "headers": "x-api-key: {appId}\n",
-          "data": [],
-          "dataMode": "params",
+          "headers": "x-api-key: {appId}\nAccept: application/json\n",
+          "data": "{\n    \"password\": \"MyPassword\",\n    \"pin\": \"MyPin\",\n    \"username\": \"MyCharityUsername\"\n}",
+          "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404830966100
+          "time": 1404922113549
         },
         {
           "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
@@ -405,12 +405,12 @@
           "description": "Validates a set of supplied charity user credentials against the JustGiving database. It is not recommended to use this for authentication in your own application, but it can be used to verify credentials before attempting to use them.",
           "url": "https://api-sandbox.justgiving.com/v1/charity/authenticate",
           "method": "POST",
-          "headers": "x-api-key: {appId}\n",
-          "data": [],
-          "dataMode": "params",
+          "headers": "x-api-key: {appId}\nContent-Type: application/json\n",
+          "data": "{\n    \"password\": \"MyPassword\",\n    \"pin\": \"MyPin\",\n    \"username\": \"MyCharityUsername\"\n}",
+          "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404830871186
+          "time": 1404919746205
         },
         {
           "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
@@ -419,12 +419,12 @@
           "description": "Retrieves charity categories.",
           "url": "https://api-sandbox.justgiving.com/v1/charity/categories",
           "method": "GET",
-          "headers": "x-api-key: {appId}\n",
-          "data": [],
-          "dataMode": "params",
+          "headers": "x-api-key: {appId}\nAccept: application/json\n",
+          "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+          "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404831445897
+          "time": 1404922539221
         },
         {
           "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
@@ -433,12 +433,12 @@
           "description": "Appends text to the attribution of a of a Fundraising Page. Typically used for a list of team members.\n\n{pageShortName} - Would be replaced with the short page url that uniquely identifies the page to the user. This is typically their name such as \"John-Smith\".",
           "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/pages/{pageShortName}/attribution",
           "method": "POST",
-          "headers": "x-api-key: {appId}\n",
-          "data": [],
-          "dataMode": "params",
+          "headers": "x-api-key: {appId}\nAuthorization: Basic {basicAuth}\nContent-Type: application/json\n",
+          "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+          "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404831225664
+          "time": 1404922422420
         },
         {
           "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
@@ -447,12 +447,12 @@
           "description": "Returns a lightweight charity profile for a given charity Id.",
           "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}",
           "method": "GET",
-          "headers": "x-api-key: {appId}\n",
-          "data": [],
-          "dataMode": "params",
+          "headers": "x-api-key: {appId}\nAccept: application/json\n",
+          "data": "[\n    \"swimming\",\n    \"walking\",\n    \"meshuggah\",\n    \"strapping young lad\"\n]",
+          "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404830804400
+          "time": 1404919146214
         },
         {
           "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
@@ -461,12 +461,12 @@
           "description": "Replaces the attribution of a of a Fundraising Page. Typically used for a list of team members.\n\n{pageShortName} - Would be replaced with the short page url that uniquely identifies the page to the user. This is typically their name such as \"John-Smith\".",
           "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/pages/{pageShortName}/attribution",
           "method": "PUT",
-          "headers": "x-api-key: {appId}\n",
-          "data": [],
-          "dataMode": "params",
+          "headers": "x-api-key: {appId}\nAuthorization: Basic {basicAuth}\nContent-Type: application/json\n",
+          "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+          "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404831184589
+          "time": 1404922319708
         },
         {
           "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
@@ -475,12 +475,12 @@
           "description": "Retrieves paginated events for a charity.",
           "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/events",
           "method": "GET",
-          "headers": "x-api-key: {appId}\n",
-          "data": [],
-          "dataMode": "params",
+          "headers": "x-api-key: {appId}\nAccept: application/json\n",
+          "data": "{\n    \"password\": \"MyPassword\",\n    \"pin\": \"MyPin\",\n    \"username\": \"MyCharityUsername\"\n}",
+          "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404830932373
+          "time": 1404919831419
         },
         {
           "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
@@ -489,12 +489,12 @@
           "description": "Deletes the attribution of a of a Fundraising Page. Typically used for a list of team members.\n\n{pageShortName} - Would be replaced with the short page url that uniquely identifies the page to the user. This is typically their name such as \"John-Smith\".",
           "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/pages/{pageShortName}/attribution",
           "method": "DELETE",
-          "headers": "x-api-key: {appId}\n",
+          "headers": "x-api-key: {appId}\nAuthorization: Basic {basicAuth}\n",
           "data": [],
           "dataMode": "params",
           "timestamp": 0,
           "version": 2,
-          "time": 1404831046013
+          "time": 1404922294958
         },
         {
           "collectionId": "79241d48-320f-28d9-b72e-35d18e44d2c5",
@@ -503,12 +503,12 @@
           "description": "Retrieves the attribution of a of a Fundraising Page. Typically used for a list of team members.",
           "url": "https://api-sandbox.justgiving.com/v1/charity/{charityId}/pages/{pageShortName}/attribution",
           "method": "GET",
-          "headers": "x-api-key: {appId}\n",
-          "data": [],
-          "dataMode": "params",
+          "headers": "x-api-key: {appId}\nAuthorization: Basic {basicAuth}\nAccept: application/json\n",
+          "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+          "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404831314666
+          "time": 1404922454139
         }
       ]
     },
@@ -797,12 +797,12 @@
           "description": "Returns a list of allowable currency codes for use in page creation.",
           "url": "https://api-sandbox.justgiving.com/v1/fundraising/currencies",
           "method": "GET",
-          "headers": "x-api-key: {appId}\n",
-          "data": [],
-          "dataMode": "params",
+          "headers": "x-api-key: {appId}\nAccept: application/json\n",
+          "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+          "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404831512746
+          "time": 1404922653348
         }
       ]
     },
@@ -818,12 +818,12 @@
           "description": "A list of allowable countries for use when registering a new user account. You can use either the country name or its corresponding ISO 3166-1 two-letter country code.",
           "url": "https://api-sandbox.justgiving.com/v1/countries",
           "method": "GET",
-          "headers": "x-api-key: {appId}\n",
-          "data": [],
-          "dataMode": "params",
+          "headers": "x-api-key: {appId}\nAccept: application/json\n",
+          "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+          "dataMode": "raw",
           "timestamp": 0,
           "version": 2,
-          "time": 1404831433338
+          "time": 1404922587657
         }
       ]
     },
