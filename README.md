@@ -14,3 +14,10 @@ Please open config file in your favourite text editor and replace phrases to fol
  ```text
 {basicAuth} -> Your generated basic authentitacion key
  ```
+ 
+ If you are going to use Postman window version, to import data you have to choose :
+ 
+  ```text
+Settings->Data->Import data->Choose our config file
+ ``` 
+ Done!
