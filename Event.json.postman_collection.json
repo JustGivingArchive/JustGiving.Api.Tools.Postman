@@ -1,49 +1,49 @@
 {
-      "id": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
-      "name": "JustGiving - Event",
-      "timestamp": 1404828531684,
-      "requests": [
-        {
-          "collectionId": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
-          "id": "3bb1ba72-53d6-5212-2e32-75d47e35a5ef",
-          "name": "RegisterEvent",
-          "description": "Creates an event on JustGiving allowing you to programatically create pages for events you manage. Currently, these events will not show up in the JustGiving event search, this functionality will expand in the future. Please try to prevent creating duplicate events, or duplicate existing events (don't create your own London Marathon event!)",
-          "url": "{{url}}/v1/event/{eventId}/pages",
-          "method": "POST",
-          "headers": "x-api-key: {{appId}}\n",
-          "data": [],
-          "dataMode": "params",
-          "timestamp": 0,
-          "version": 2,
-          "time": 1404831817396
-        },
-        {
-          "collectionId": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
-          "id": "45ac4cfb-db88-fbfe-2a73-40d6f6ec157f",
-          "name": "GetEventById",
-          "description": "Retrieves an event.",
-          "url": "{{url}}/v1/event/{eventId}",
-          "method": "GET",
-          "headers": "x-api-key: {{appId}}\n",
-          "data": [],
-          "dataMode": "params",
-          "timestamp": 0,
-          "version": 2,
-          "time": 1404831762735
-        },
-        {
-          "collectionId": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
-          "id": "8df631a6-017b-ba73-8afc-c178bd387029",
-          "name": "GetPagesForEvent",
-          "description": "Retrieves a collection of page summaries that are assigned to a specific event",
-          "url": "{{url}}/v1/event/{eventId}/pages",
-          "method": "GET",
-          "headers": "x-api-key: {{appId}}\n",
-          "data": [],
-          "dataMode": "params",
-          "timestamp": 0,
-          "version": 2,
-          "time": 1404831790996
-        }
-      ]
+  "id": "31fa06fa-692c-3ad3-1599-2ded8fc73e24",
+  "name": "JustGiving - Event",
+  "timestamp": 1404828531684,
+  "requests": [
+    {
+      "collectionId": "31fa06fa-692c-3ad3-1599-2ded8fc73e24",
+      "id": "0a34d8f2-66ca-a27b-8f21-b2e18a0e573a",
+      "name": "GetPagesForEvent",
+      "description": "Retrieves a collection of page summaries that are assigned to a specific event",
+      "url": "{{url}}/v1/event/{eventId}/pages",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+      "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1425179876337
+    },
+    {
+      "collectionId": "31fa06fa-692c-3ad3-1599-2ded8fc73e24",
+      "id": "e366c071-d51d-b567-56e3-997232e319c1",
+      "name": "RegisterEvent",
+      "description": "Creates an event on JustGiving allowing you to programatically create pages for events you manage. Currently, these events will not show up in the JustGiving event search, this functionality will expand in the future. Please try to prevent creating duplicate events, or duplicate existing events (don't create your own London Marathon event!)",
+      "url": "{{url}}/v1/event/",
+      "method": "POST",
+      "headers": "x-api-key: {{appId}}\nContent-Type: application/json\n",
+      "data": "{\n  \"name\": \"Playing Mario for 48 hours for charity\",\n  \"description\": \"Playing Mario for charity\",\n  \"id\": 12356,\n  \"completionDate\": \"\\/Date(1455813144563+0000)\\/\",\n  \"expiryDate\": \"\\/Date(1455813144563+0000)\\/\",\n  \"startDate\": \"\\/Date(1424449944563+0000)\\/\",\n  \"eventType\": \"OtherCelebration\",\n  \"location\": \"My Living room\"\n}",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1424277225171
+    },
+    {
+      "collectionId": "31fa06fa-692c-3ad3-1599-2ded8fc73e24",
+      "id": "e4ee7959-b939-4de0-e935-c832f1a4e38b",
+      "name": "GetEventById",
+      "description": "Retrieves an event.",
+      "url": "{{url}}/v1/event/{eventId}",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+      "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1425179864613
     }
+  ]
+}
