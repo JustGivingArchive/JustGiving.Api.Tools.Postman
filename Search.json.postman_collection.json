@@ -1,0 +1,77 @@
+{
+      "id": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+      "name": "JustGiving - Search",
+      "timestamp": 1404828591692,
+      "requests": [
+        {
+          "collectionId": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+          "id": "86bada3b-32eb-b4e4-d496-5945316b7f6f",
+          "name": "FundraiserSearch",
+          "description": "",
+          "url": "{{url}}/v1/fundraising/search",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834184549
+        },
+        {
+          "collectionId": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+          "id": "8d9e83be-c47a-6cf5-729d-16de5c132e93",
+          "name": "InMemorySearch",
+          "description": "In Beta - Search for a remembered person\n\nUse the uri in next and prev to easily page your results.",
+          "url": "{{url}}/v1/remember/search",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834210681
+        },
+        {
+          "collectionId": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+          "id": "8dfb8e03-cbb9-a7b1-d9de-4ddf973e9634",
+          "name": "TeamSearch",
+          "description": "Search for a team\n\nUse the uri in next and prev to easily page your results.",
+          "url": "{{url}}/v1/team/search",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834237741
+        },
+        {
+          "collectionId": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+          "id": "bcc550e8-348a-44d9-53df-b3b1447306ad",
+          "name": "EventSearch",
+          "description": "Searches for events by name.\n\nUse the uri in next and prev to easily page your results.",
+          "url": "{{url}}/v1/event/search",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834121825
+        },
+        {
+          "collectionId": "283bbe39-edd0-00d9-c388-cec4eac8a76e",
+          "id": "bda0620a-20a9-5a5f-a01a-f90cde2f7e3f",
+          "name": "CharitySearch",
+          "description": "Searches for charities by charity id, category id, name or registration number.\n\nUse the uri in next and prev to easily page your results.",
+          "url": "{{url}}/v1/charity/search",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834132232
+        }
+      ]
+    }

@@ -1,0 +1,21 @@
+{
+      "id": "9ea080bf-ed99-99de-215d-9a246cf1494b",
+      "name": "JustGiving - Currency",
+      "timestamp": 1404828502662,
+      "requests": [
+        {
+          "collectionId": "9ea080bf-ed99-99de-215d-9a246cf1494b",
+          "id": "f13c1c69-260c-c678-8613-4989014b5eec",
+          "name": "GetValidCurrencyCodes",
+          "description": "Returns a list of allowable currency codes for use in page creation.",
+          "url": "{{url}}/v1/fundraising/currencies",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+          "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+          "dataMode": "raw",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404922653348
+        }
+      ]
+    }

@@ -1,0 +1,49 @@
+{
+      "id": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
+      "name": "JustGiving - Event",
+      "timestamp": 1404828531684,
+      "requests": [
+        {
+          "collectionId": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
+          "id": "3bb1ba72-53d6-5212-2e32-75d47e35a5ef",
+          "name": "RegisterEvent",
+          "description": "Creates an event on JustGiving allowing you to programatically create pages for events you manage. Currently, these events will not show up in the JustGiving event search, this functionality will expand in the future. Please try to prevent creating duplicate events, or duplicate existing events (don't create your own London Marathon event!)",
+          "url": "{{url}}/v1/event/{eventId}/pages",
+          "method": "POST",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831817396
+        },
+        {
+          "collectionId": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
+          "id": "45ac4cfb-db88-fbfe-2a73-40d6f6ec157f",
+          "name": "GetEventById",
+          "description": "Retrieves an event.",
+          "url": "{{url}}/v1/event/{eventId}",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831762735
+        },
+        {
+          "collectionId": "ff264ec9-e04d-6e24-f62e-28232ee7e1b8",
+          "id": "8df631a6-017b-ba73-8afc-c178bd387029",
+          "name": "GetPagesForEvent",
+          "description": "Retrieves a collection of page summaries that are assigned to a specific event",
+          "url": "{{url}}/v1/event/{eventId}/pages",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831790996
+        }
+      ]
+    }

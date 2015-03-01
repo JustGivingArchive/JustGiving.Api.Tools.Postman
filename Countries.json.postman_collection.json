@@ -1,0 +1,21 @@
+{
+      "id": "a74f88b3-9f79-21f6-44ad-0a05420b15f6",
+      "name": "JustGiving - Countires",
+      "timestamp": 1404828389142,
+      "requests": [
+        {
+          "collectionId": "a74f88b3-9f79-21f6-44ad-0a05420b15f6",
+          "id": "6e809876-9d85-bce7-d072-cddd85dbae61",
+          "name": "ListCountries",
+          "description": "A list of allowable countries for use when registering a new user account. You can use either the country name or its corresponding ISO 3166-1 two-letter country code.",
+          "url": "{{url}}/v1/countries",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+          "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+          "dataMode": "raw",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404922587657
+        }
+      ]
+    }

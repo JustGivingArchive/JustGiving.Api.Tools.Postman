@@ -1,0 +1,35 @@
+{
+      "id": "b0cb5e5a-e765-ca93-c737-f552e99d53e3",
+      "name": "JustGiving - Donation",
+      "timestamp": 1404828514111,
+      "requests": [
+        {
+          "collectionId": "b0cb5e5a-e765-ca93-c737-f552e99d53e3",
+          "id": "44915869-b1e7-922d-0fa7-6809eec68007",
+          "name": "RetrieveDonationStatus",
+          "description": "Gets the status of a donation by donationId. This API call is depricated and will be removed in V2 of the API. All of the information available here is available in the RetrieveDonationDetails resource.",
+          "url": "{{url}}/v1/donation/{donationId}/status",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831713719
+        },
+        {
+          "collectionId": "b0cb5e5a-e765-ca93-c737-f552e99d53e3",
+          "id": "693f77ec-01c4-28b4-58b2-04cb36a6c03c",
+          "name": "GetValidCurrencyCodes",
+          "description": "Gets the details of a donation by donationId.",
+          "url": "{{url}}/v1/donation/{donationId}",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404831583810
+        }
+      ]
+    }

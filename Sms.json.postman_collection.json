@@ -1,0 +1,35 @@
+{
+      "id": "3424ec53-9efc-6360-73b4-dee9358b14d2",
+      "name": "JustGiving - Sms",
+      "timestamp": 1404828604189,
+      "requests": [
+        {
+          "collectionId": "3424ec53-9efc-6360-73b4-dee9358b14d2",
+          "id": "76609e07-f2a8-b5b7-deff-6a49c2d64ab8",
+          "name": "RetrievePageSmsCode",
+          "description": "Retrieves the SMS short code for a fundraising page.",
+          "url": "{{url}}/v1/fundraising/pages/{pageShortName}/sms",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834352757
+        },
+        {
+          "collectionId": "3424ec53-9efc-6360-73b4-dee9358b14d2",
+          "id": "9b9aef62-0d84-fdc3-3fa7-b60842c7b128",
+          "name": "UpdatePageSmsCode",
+          "description": "Updates the SMS short code for a fundraising page.",
+          "url": "{{url}}/v1/fundraising/pages/{pageShortName}/sms",
+          "method": "PUT",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834393432
+        }
+      ]
+    }

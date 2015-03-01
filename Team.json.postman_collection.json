@@ -1,0 +1,63 @@
+{
+      "id": "3080e64e-f313-9f69-c98f-34a1d0345e60",
+      "name": "JustGiving - Team",
+      "timestamp": 1404828613461,
+      "requests": [
+        {
+          "collectionId": "3080e64e-f313-9f69-c98f-34a1d0345e60",
+          "id": "0b64356a-a657-36db-b45c-ea27bc10f359",
+          "name": "CreateOrUpdateTeam",
+          "description": "",
+          "url": "{{url}}/v1/team/{teamShortName}",
+          "method": "PUT",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834523629
+        },
+        {
+          "collectionId": "3080e64e-f313-9f69-c98f-34a1d0345e60",
+          "id": "5a641b3c-0ef0-4088-2fb2-827089bc789a",
+          "name": "GetTeam",
+          "description": "Retrieves an team.",
+          "url": "{{url}}/v1/team/{teamShortName}",
+          "method": "GET",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834471197
+        },
+        {
+          "collectionId": "3080e64e-f313-9f69-c98f-34a1d0345e60",
+          "id": "8302387e-7e45-0ae5-c6fa-bdc3335d7626",
+          "name": "JoinTeam",
+          "description": "",
+          "url": "{{url}}/v1/team/join/{teamShortName}",
+          "method": "PUT",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834578124
+        },
+        {
+          "collectionId": "3080e64e-f313-9f69-c98f-34a1d0345e60",
+          "id": "bfc156ee-27a5-e0c2-028f-dfda4850d4ba",
+          "name": "CheckIfTeamExists",
+          "description": "",
+          "url": "{{url}}/v1/team/{teamShortName}",
+          "method": "HEAD",
+          "headers": "x-api-key: {{appId}}\n",
+          "data": [],
+          "dataMode": "params",
+          "timestamp": 0,
+          "version": 2,
+          "time": 1404834483131
+        }
+      ]
+    }
