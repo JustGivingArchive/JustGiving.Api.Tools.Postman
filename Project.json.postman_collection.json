@@ -1,35 +1,35 @@
 {
-      "id": "f2c33509-db19-0242-6619-9f1a9b517d0d",
-      "name": "JustGiving - Project",
-      "timestamp": 1404828581374,
-      "requests": [
-        {
-          "collectionId": "f2c33509-db19-0242-6619-9f1a9b517d0d",
-          "id": "14e44a15-eac8-826f-7685-efc30eeeed08",
-          "name": "Projects",
-          "description": "Searches for community fundraising projects\n\nUse the uri in next and prev to easily page your results.",
-          "url": "{{url}}/v1/project",
-          "method": "GET",
-          "headers": "x-api-key: {{appId}}\n",
-          "data": [],
-          "dataMode": "params",
-          "timestamp": 0,
-          "version": 2,
-          "time": 1404834007245
-        },
-        {
-          "collectionId": "f2c33509-db19-0242-6619-9f1a9b517d0d",
-          "id": "77a8f20e-baaa-23e7-df93-85b51aeb8553",
-          "name": "GetGlobalProjectById",
-          "description": "Returns a global project by it's project Id",
-          "url": "{{url}}/v1/project",
-          "method": "GET",
-          "headers": "x-api-key: {{appId}}\n",
-          "data": [],
-          "dataMode": "params",
-          "timestamp": 0,
-          "version": 2,
-          "time": 1404834031884
-        }
-      ]
+  "id": "a3a4419c-060d-39a3-57b4-f733420a604e",
+  "name": "JustGiving - Project",
+  "timestamp": 1404828581374,
+  "requests": [
+    {
+      "collectionId": "a3a4419c-060d-39a3-57b4-f733420a604e",
+      "id": "bf62221e-118b-951d-0549-64647c6c1a06",
+      "name": "Projects",
+      "description": "Searches for community fundraising projects\n\nUse the uri in next and prev to easily page your results.",
+      "url": "{{url}}/v1/project",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+      "data": "{\n    \"pageSummaryWhat\": \"running a marathon\",\n    \"pageSummaryWhy\": \"I want support the work done by the charity\"\n}",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1425352076963
+    },
+    {
+      "collectionId": "a3a4419c-060d-39a3-57b4-f733420a604e",
+      "id": "f4cfd21a-a685-24f3-803a-ff16c2bace19",
+      "name": "GetGlobalProjectById",
+      "description": "Returns a global project by it's project Id",
+      "url": "{{url}}/v1/project",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+      "data": "{\n    \"pageSummaryWhat\": \"running a marathon\",\n    \"pageSummaryWhy\": \"I want support the work done by the charity\"\n}",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1425352153551
     }
+  ]
+}
