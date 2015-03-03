@@ -1,0 +1,22 @@
+{
+  "id": "82b07c9f-2a46-705d-c197-97cbf07c670a",
+  "name": "Live",
+  "values": [
+    {
+      "key": "url",
+      "value": "https://api.justgiving.com",
+      "type": "text"
+    },
+    {
+      "key": "appId",
+      "value": "yourAppId",
+      "type": "text"
+    },
+    {
+      "key": "basicAuth",
+      "value": "yourbasicAuth",
+      "type": "text"
+    }
+  ],
+  "timestamp": 1425354630001
+}
