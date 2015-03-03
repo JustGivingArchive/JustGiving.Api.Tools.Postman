@@ -1,21 +1,21 @@
 {
-      "id": "acf44d99-0632-4c95-592f-e929d06681a8",
-      "name": "JustGiving - OneSearch",
-      "timestamp": 1404828569269,
-      "requests": [
-        {
-          "collectionId": "acf44d99-0632-4c95-592f-e929d06681a8",
-          "id": "c7886859-705b-ec93-8806-763c96a91600",
-          "name": "OneSearchIndex",
-          "description": "Searches across all JustGiving fundraising pages, events, charities and YIMBY projects.",
-          "url": "{{url}}/v1/onesearch",
-          "method": "GET",
-          "headers": "x-api-key: {{appId}}\n",
-          "data": [],
-          "dataMode": "params",
-          "timestamp": 0,
-          "version": 2,
-          "time": 1404833948339
-        }
-      ]
+  "id": "21309eef-add3-8e63-705c-96b418415b64",
+  "name": "JustGiving - OneSearch",
+  "timestamp": 1404828569269,
+  "requests": [
+    {
+      "collectionId": "21309eef-add3-8e63-705c-96b418415b64",
+      "id": "77e82ea6-9051-35a3-c5be-fa656bcc5e8b",
+      "name": "OneSearchIndex",
+      "description": "Searches across all JustGiving fundraising pages, events, charities and YIMBY projects.",
+      "url": "{{url}}/v1/onesearch",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+      "data": "{\n    \"pageSummaryWhat\": \"running a marathon\",\n    \"pageSummaryWhy\": \"I want support the work done by the charity\"\n}",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1425351867839
     }
+  ]
+}
