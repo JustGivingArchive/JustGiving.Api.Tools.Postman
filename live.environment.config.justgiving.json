@@ -9,12 +9,12 @@
     },
     {
       "key": "appId",
-      "value": "yourAppId",
+      "value": "yourAppID",
       "type": "text"
     },
     {
       "key": "basicAuth",
-      "value": "yourbasicAuth",
+      "value": "yourBasicAuthToken",
       "type": "text"
     }
   ],

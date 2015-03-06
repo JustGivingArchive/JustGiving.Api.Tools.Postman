@@ -5,12 +5,17 @@ A config file for the Postman Chrome app https://chrome.google.com/webstore/deta
 
 This file will add JustGiving API methods to your postman collections.  JG Api documentation can be found here: https://api.justgiving.com/docs
 
-Please open config file in your favourite text editor and replace these phrases with the following values 
+Additionally we have provided two environment config files, which ideally fit into collection files. Basically you have to change those two values
 
- ```text
-{appId} -> Your generated appId https://apimanagement.justgiving.com/
- ```
+```text
+yourAppID -> Your generated appId https://apimanagement.justgiving.com/
+```
 
- ```text
-{basicAuth} -> Your generated basic authentitacion key
- ```
+and
+
+```text
+yourBasicAuthToken -> Your generated basic authentitacion key
+```
+
+You can easily import those environment config files by choosing : Manage environments -> Import
+By having environment configuration, you can very easily change variables against our environments like sandbox and production.
