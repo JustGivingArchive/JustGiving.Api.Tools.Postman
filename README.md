@@ -3,9 +3,9 @@ JustGiving.Api.Tools.Postman
 
 A config file for the Postman Chrome app [https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en).
 
-These files will add JustGiving API methods to your postman collections.  JG Api documentation can be found here: [https://api.justgiving.com/docs](https://api.justgiving.com/docs)
+When you import the files in this repo into Postman they will add JustGiving API methods to your collections.  JG Api documentation can be found here: [https://api.justgiving.com/docs](https://api.justgiving.com/docs)
 
-Additionally we have provided two environment config files, this will help you switch between sandbox and production environments quickly
+Additionally we have provided two environment config files, this will help you switch between sandbox and production environments quickly.
 
 
 ###Usage
