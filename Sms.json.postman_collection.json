@@ -39,11 +39,16 @@
       "url": "{{url}}/v1/fundraising/pages/{pageShortName}/sms",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "{\n    \"pageSummaryWhat\": \"running a marathon\",\n    \"pageSummaryWhy\": \"I want support the work done by the charity\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
       "time": 1425352885063
     }
+  ],
+  "order": [
+    "eac345ba-1282-930b-35d1-6e427b2a8661",
+    "659028d8-b8c1-342a-18e0-fe9a8903f755",
+    "b86bc449-801a-5d2c-3426-e5f6220c286c"
   ]
 }

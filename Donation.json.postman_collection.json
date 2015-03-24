@@ -11,7 +11,7 @@
       "url": "{{url}}/v1/donation/ref/{thirdPartyReference}",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
@@ -25,7 +25,7 @@
       "url": "{{url}}/v1/donation/{donationId}/status",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
@@ -39,11 +39,16 @@
       "url": "{{url}}/v1/donation/{donationId}",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
       "time": 1425173014523
     }
+  ],
+  "order": [
+    "c4bbc8f5-8d65-96af-c018-43c4eb11b9f2",
+    "79608b76-5218-fcae-3d59-f7c2923c81f1",
+    "52a760ea-b749-d207-5b6e-970c484fd580"
   ]
 }
