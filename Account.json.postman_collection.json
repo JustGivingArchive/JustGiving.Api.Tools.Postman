@@ -25,11 +25,11 @@
       "url": "{{url}}/v1/account/{email}/pages",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "{\n    \"email\": \"info@helbards.com\",\n    \"password\": \"somepassword\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
-      "time": 1424444189903
+      "time": 1427216526487
     },
     {
       "collectionId": "a1b2573f-e38e-b304-4252-1c7c3787cdd8",
@@ -39,11 +39,11 @@
       "url": "{{url}}/v1/account",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAuthorization: Basic {{basicAuth}}\nAccept: application/json\n",
-      "data": "{\n    \"acceptTermsAndConditions\": true,\n    \"address\": {\n        \"country\": \"United Kingdom\",\n        \"countyOrState\": \"London\",\n        \"line1\": \"First Floor\",\n        \"line2\": \"30 Eastbourne Terrace\",\n        \"postcodeOrZipcode\": \"W2 6LA\",\n        \"townOrCity\": \"London\"\n    },\n    \"causeId\": null,\n    \"email\": \"myAwes111omeEmail@test456.com\",\n    \"firstName\": \"John\",\n    \"lastName\": \"Smith\",\n    \"password\": \"S3cr3tP4ssw0rd\",\n    \"reference\": \"Your Reference\",\n    \"title\": \"Mr\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
-      "time": 1424443403690
+      "time": 1427216674213
     },
     {
       "collectionId": "a1b2573f-e38e-b304-4252-1c7c3787cdd8",
@@ -81,7 +81,7 @@
       "url": "{{url}}/v1/account/interest",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAuthorization: Basic {{basicAuth}}\nAccept: application/json\n",
-      "data": "{\n  \"intent\": \"Like\",\n  \"type\": \"FundraisingPage\",\n  \"contentData\": \"Pawel-SawiczTest1\",\n  \"created\": null,\n  \"updated\": null\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
@@ -95,7 +95,7 @@
       "url": "{{url}}/v1/account/rating?page={pageId}&pagesize={pageSize}",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAuthorization: Basic {{basicAuth}}\nAccept: application/json\n",
-      "data": "{\n    \"emailaddress\": \"{email}\",\n    \"newpassword\": \"newpassword\",\n    \"currentpassword\": \"oldpassword\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
@@ -109,10 +109,11 @@
       "url": "{{url}}/v1/account/{email}/requestpasswordreminder",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\n",
-      "data": "{\n    \"emailaddress\": \"{email}\",\n    \"newpassword\": \"newpassword\",\n    \"currentpassword\": \"oldpassword\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
-      "version": 2
+      "version": 2,
+      "time": 1427216556704
     },
     {
       "collectionId": "a1b2573f-e38e-b304-4252-1c7c3787cdd8",
@@ -122,11 +123,11 @@
       "url": "{{url}}/v1/account/feed",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAuthorization: Basic {{basicAuth}}\nAccept: application/json\n",
-      "data": "{\n  \"intent\": \"Like\",\n  \"type\": \"FundraisingPage\",\n  \"contentData\": \"Pawel-SawiczTest1\",\n  \"created\": null,\n  \"updated\": null\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
-      "time": 1425168819441
+      "time": 1427216635197
     },
     {
       "collectionId": "a1b2573f-e38e-b304-4252-1c7c3787cdd8",
@@ -176,7 +177,7 @@
       "url": "{{url}}/v1/account/donations",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
-      "data": "{\n    \"email\": \"info@helbards.com\",\n    \"password\": \"somepassword\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
