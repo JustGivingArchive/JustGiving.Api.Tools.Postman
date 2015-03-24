@@ -11,7 +11,7 @@
       "url": "{{url}}/v1/onesearch",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "{\n    \"pageSummaryWhat\": \"running a marathon\",\n    \"pageSummaryWhy\": \"I want support the work done by the charity\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
