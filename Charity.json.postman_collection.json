@@ -11,7 +11,7 @@
       "url": "{{url}}/v1/charity/{charityId}/donations",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "{\n    \"password\": \"MyPassword\",\n    \"pin\": \"MyPin\",\n    \"username\": \"MyCharityUsername\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2
@@ -24,11 +24,11 @@
       "url": "{{url}}/v1/charity/{charityId}/events",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "{\n    \"password\": \"MyPassword\",\n    \"pin\": \"MyPin\",\n    \"username\": \"MyCharityUsername\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
-      "time": 1425172275694
+      "time": 1427217027831
     },
     {
       "collectionId": "92160215-cb37-5c34-0e40-b8de274fb0ce",
@@ -66,7 +66,7 @@
       "url": "{{url}}/v1/charity/categories",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2
@@ -79,11 +79,11 @@
       "url": "{{url}}/v1/charity/{charityId}/pages/{pageShortName}/attribution",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAuthorization: Basic {{basicAuth}}\nAccept: application/json\n",
-      "data": "{\n    \"attribution\": \"Jon, Jez, Jules\"\n}",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
-      "time": 1425172387916
+      "time": 1427217061489
     },
     {
       "collectionId": "92160215-cb37-5c34-0e40-b8de274fb0ce",
@@ -121,7 +121,7 @@
       "url": "{{url}}/v1/charity/{charityId}",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "[\n    \"swimming\",\n    \"walking\",\n    \"meshuggah\",\n    \"strapping young lad\"\n]",
+      "data": "",
       "dataMode": "raw",
       "timestamp": 0,
       "version": 2,
