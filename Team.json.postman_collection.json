@@ -21,7 +21,7 @@
       "collectionId": "48e23b02-fae9-9659-3545-eb03dbf1a835",
       "id": "7325d9f4-7e85-f71c-f8d6-b3efef279e42",
       "name": "GetTeam",
-      "description": "Retrieves an team.",
+      "description": "Retrieves a team.",
       "url": "{{url}}/v1/team/{teamShortName}",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
