@@ -1,25 +1,11 @@
 {
-  "id": "48e23b02-fae9-9659-3545-eb03dbf1a835",
+  "id": "22e76f0c-08c2-ede9-f286-1b07c9bbd7c9",
   "name": "JustGiving - Team",
   "timestamp": 1404828613461,
   "requests": [
     {
-      "collectionId": "48e23b02-fae9-9659-3545-eb03dbf1a835",
-      "id": "4e276a4c-8a28-6a6e-f546-a55b32946116",
-      "name": "JoinTeam",
-      "description": "",
-      "url": "{{url}}/v1/team/join/{teamShortName}",
-      "method": "PUT",
-      "headers": "x-api-key: {{appId}}\nContent-Type: application/json\nAuthorization: Basic {{basicAuth}}\n",
-      "data": "{\n    \"pageShortName\": \"A-ShortName\"\n}",
-      "dataMode": "raw",
-      "timestamp": 0,
-      "version": 2,
-      "time": 1425353795200
-    },
-    {
-      "collectionId": "48e23b02-fae9-9659-3545-eb03dbf1a835",
-      "id": "7325d9f4-7e85-f71c-f8d6-b3efef279e42",
+      "collectionId": "22e76f0c-08c2-ede9-f286-1b07c9bbd7c9",
+      "id": "897d539f-8e25-48e7-a45d-2204e2f02c7b",
       "name": "GetTeam",
       "description": "Retrieves an team.",
       "url": "{{url}}/v1/team/{teamShortName}",
@@ -28,26 +14,24 @@
       "data": "",
       "dataMode": "raw",
       "timestamp": 0,
-      "version": 2,
-      "time": 1425353524873
+      "version": 2
     },
     {
-      "collectionId": "48e23b02-fae9-9659-3545-eb03dbf1a835",
-      "id": "aa3771ad-552a-3352-90aa-b32a9fd8f01a",
-      "name": "CreateOrUpdateTeam",
+      "collectionId": "22e76f0c-08c2-ede9-f286-1b07c9bbd7c9",
+      "id": "bffc6a0b-c78b-dce6-05b9-4844a6cb411b",
+      "name": "JoinTeam",
       "description": "",
-      "url": "{{url}}/v1/team/{teamShortName}",
+      "url": "{{url}}/v1/team/join/{teamShortName}",
       "method": "PUT",
       "headers": "x-api-key: {{appId}}\nContent-Type: application/json\nAuthorization: Basic {{basicAuth}}\n",
-      "data": "{\n    \"name\": \"My Ultra Team\",\n    \"story\": \"This is my team. And we're raising money for charity <b>like a boss<\\/b>.\",\n    \"targetType\": 0,\n    \"teamImages\": {\n        \"teamLogo\": {\n            \"url\": \"http:\\/\\/google.pl\"\n        },\n        \"teamPhoto\": {\n            \"url\": \"http:\\/\\/google.pl\"\n        }\n    },\n    \"teamMembers\": [\n        {\n            \"localAmountRaised\": 0,\n            \"localCurrencySymbol\": null,\n            \"pageShortName\": \"page-shortname\"\n        }\n    ],\n    \"teamShortName\": \"ultra-team-1979\",\n    \"teamTarget\": 10000,\n    \"teamType\": 0\n}",
+      "data": "{\n    \"pageShortName\": \"A-ShortName\"\n}",
       "dataMode": "raw",
       "timestamp": 0,
-      "version": 2,
-      "time": 1425353706984
+      "version": 2
     },
     {
-      "collectionId": "48e23b02-fae9-9659-3545-eb03dbf1a835",
-      "id": "c95e5519-9e24-e2e1-2e2f-f09d5e2a343e",
+      "collectionId": "22e76f0c-08c2-ede9-f286-1b07c9bbd7c9",
+      "id": "e5945bdd-261f-f498-b3cc-4cf26d738e95",
       "name": "CheckIfTeamExists",
       "description": "",
       "url": "{{url}}/v1/team/{teamShortName}",
@@ -56,14 +40,27 @@
       "data": "",
       "dataMode": "raw",
       "timestamp": 0,
+      "version": 2
+    },
+    {
+      "collectionId": "22e76f0c-08c2-ede9-f286-1b07c9bbd7c9",
+      "id": "fd49d79a-05da-5afd-4852-9844191de25a",
+      "name": "CreateOrUpdateTeam",
+      "description": "",
+      "url": "{{url}}/v1/team/{teamShortName}",
+      "method": "PUT",
+      "headers": "x-api-key: {{appId}}\nContent-Type: application/json\nAuthorization: Basic {{basicAuth}}\n",
+      "data": "{\n    \"name\": \"My Ultra Team\",\n    \"story\": \"This is my team. And we're raising money for charity <b>like a boss<\\/b>.\",\n    \"targetType\": \"Fixed\",\n    \"teamImages\": {\n        \"teamLogo\": {\n            \"url\": \"http:\\/\\/google.com\"\n        },\n        \"teamPhoto\": {\n            \"url\": \"http:\\/\\/google.com\"\n        }\n    },\n    \"teamMembers\": [\n        {            \n            \"pageShortName\": \"page-shortname\"\n        }\n    ],\n    \"teamShortName\": \"ultra-team-1979\",\n    \"teamTarget\": 10000.0,\n    \"teamType\": \"Open\"\n}",
+      "dataMode": "raw",
+      "timestamp": 0,
       "version": 2,
-      "time": 1425353573886
+      "time": 1430924156570
     }
   ],
   "order": [
-    "7325d9f4-7e85-f71c-f8d6-b3efef279e42",
-    "c95e5519-9e24-e2e1-2e2f-f09d5e2a343e",
-    "aa3771ad-552a-3352-90aa-b32a9fd8f01a",
-    "4e276a4c-8a28-6a6e-f546-a55b32946116"
+    "897d539f-8e25-48e7-a45d-2204e2f02c7b",
+    "e5945bdd-261f-f498-b3cc-4cf26d738e95",
+    "fd49d79a-05da-5afd-4852-9844191de25a",
+    "bffc6a0b-c78b-dce6-05b9-4844a6cb411b"
   ]
 }
