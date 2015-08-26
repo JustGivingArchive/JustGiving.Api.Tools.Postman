@@ -64,7 +64,7 @@
       "id": "4d7c402d-f6a7-b769-c8f9-a373e4b4aa4f",
       "name": "ChangePassword",
       "description": "Change a users JustGiving password.\n\nA response document with a message representing success or failure",
-      "url": "{{url}}/v1/account/changepassword",
+      "url": "{{url}}/v1/account/password",
       "method": "POST",
       "headers": "x-api-key: {{appId}}\nContent-Type: application/json\n",
       "data": "{\n    \"emailaddress\": \"{email}\",\n    \"newpassword\": \"newpassword\",\n    \"currentpassword\": \"oldpassword\"\n}",
