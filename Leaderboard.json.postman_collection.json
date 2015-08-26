@@ -1,0 +1,35 @@
+{
+  "id": "2c3180ea-6cb4-10cf-f0da-1e4bc87d5c0b",
+  "name": "JustGiving - Leaderboard",
+  "timestamp": 1434549141041,
+  "requests": [
+    {
+      "collectionId": "2c3180ea-6cb4-10cf-f0da-1e4bc87d5c0b",
+      "id": "4f939df8-c674-294d-03af-7a8fc47589fd",
+      "name": "GetEventLeaderboard",
+      "description": "",
+      "url": "{{url}}/v1/event/{eventId}/leaderboard",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+      "data": "",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1436282005903
+    },
+    {
+      "collectionId": "2c3180ea-6cb4-10cf-f0da-1e4bc87d5c0b",
+      "id": "9c0af7ae-2bb1-7032-ed81-724bdf91d5bf",
+      "name": "GetCharityLeaderboard",
+      "description": "",
+      "url": "{{url}}/v1/charity/{charityId}/leaderboard",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+      "data": "",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1436281980409
+    }
+  ]
+}

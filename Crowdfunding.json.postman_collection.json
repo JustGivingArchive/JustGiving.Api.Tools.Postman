@@ -1,0 +1,49 @@
+{
+  "id": "419e8b96-1081-83d5-e810-3b24815080a5",
+  "name": "JustGiving - Crowdfunding",
+  "timestamp": 1429799610719,
+  "requests": [
+    {
+      "collectionId": "419e8b96-1081-83d5-e810-3b24815080a5",
+      "id": "29f53c91-b7d9-65e7-25d6-e1fd531e2910",
+      "name": "GetCrowdfundingPageActivities",
+      "description": "",
+      "url": "{{url}}/v1/crowdfunding/pages/{pageId}/activities",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+      "data": "",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1436280223056
+    },
+    {
+      "collectionId": "419e8b96-1081-83d5-e810-3b24815080a5",
+      "id": "6d61a200-ba17-6c73-3e9c-acde0c9d8905",
+      "name": "GetCrowdfundingPageDetails",
+      "description": "",
+      "url": "{{url}}/v1/crowdfunding/pages/{pageShortName}",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+      "data": [],
+      "dataMode": "params",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1429799681190
+    },
+    {
+      "collectionId": "419e8b96-1081-83d5-e810-3b24815080a5",
+      "id": "bc491177-3eef-6980-6650-f36695f9c9f4",
+      "name": "GetCrowdfundingPagePledges",
+      "description": "",
+      "url": "{{url}}/v1/crowdfunding/pages/{pageId}/pledges",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+      "data": "",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1430331381243
+    }
+  ]
+}
