@@ -3,6 +3,24 @@
   "name": "JustGiving - Crowdfunding",
   "timestamp": 1429799610719,
   "requests": [
+	{
+		"id": "0ea3001d-fe7d-87bd-4739-55d6798c99c5",
+		"headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
+		"url": "{{url}}/v1/crowdfunding/pages",
+		"preRequestScript": "",
+		"pathVariables": {},
+		"method": "GET",
+		"data": [],
+		"dataMode": "params",
+		"version": 2,
+		"tests": "",
+		"currentHelper": "normal",
+		"helperAttributes": {},
+		"time": 1441890235464,
+		"name": "GetCrowdfundingPagesForUser",
+		"description": "",
+		"collectionId": "419e8b96-1081-83d5-e810-3b24815080a5"
+	},
     {
       "collectionId": "419e8b96-1081-83d5-e810-3b24815080a5",
       "id": "29f53c91-b7d9-65e7-25d6-e1fd531e2910",
