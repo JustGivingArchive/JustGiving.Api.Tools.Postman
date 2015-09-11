@@ -1,0 +1,33 @@
+{
+	"id": "716c7518-ff84-02ee-9c90-a6ae5dd603cf",
+	"name": "JustGiving - Companies",
+	"description": "",
+	"order": [
+		"fad50f60-2042-ec97-fbc1-3404b6fb5029"
+	],
+	"folders": [],
+	"timestamp": 1441973478461,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "fad50f60-2042-ec97-fbc1-3404b6fb5029",
+			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+			"url": "{{url}}/v1/companies/appeal/{companyAppealId}/pages?page=1&pageSize=20",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1441973850744,
+			"name": "GetPagesForCompanyAppeal",
+			"description": "A list of allowable countries for use when registering a new user account. You can use either the country name or its corresponding ISO 3166-1 two-letter country code.",
+			"collectionId": "716c7518-ff84-02ee-9c90-a6ae5dd603cf"
+		}
+	]
+}
