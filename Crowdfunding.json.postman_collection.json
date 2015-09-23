@@ -26,7 +26,7 @@
       "id": "29f53c91-b7d9-65e7-25d6-e1fd531e2910",
       "name": "GetCrowdfundingPageActivities",
       "description": "",
-      "url": "{{url}}/v1/crowdfunding/pages/{pageId}/activities",
+      "url": "{{url}}/v1/crowdfunding/pages/{pageShortName}/activities",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
       "data": "",
