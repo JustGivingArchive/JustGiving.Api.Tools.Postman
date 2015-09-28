@@ -54,7 +54,7 @@
       "id": "bc491177-3eef-6980-6650-f36695f9c9f4",
       "name": "GetCrowdfundingPagePledges",
       "description": "",
-      "url": "{{url}}/v1/crowdfunding/pages/{pageId}/pledges",
+      "url": "{{url}}/v1/crowdfunding/pages/{pageShortName}/pledges",
       "method": "GET",
       "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
       "data": "",
