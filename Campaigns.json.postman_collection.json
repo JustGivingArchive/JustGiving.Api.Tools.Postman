@@ -1,0 +1,34 @@
+{
+	"id": "ebd04b97-05c2-9a28-2ec5-210f5b502578",
+	"name": "JustGiving - Campaigns",
+	"description": "",
+	"order": [
+		"e4304363-4551-0158-b6e2-617a70bcf399"
+	],
+	"folders": [],
+	"timestamp": 1444235154210,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "e4304363-4551-0158-b6e2-617a70bcf399",
+			"headers": "x-api-key: {{appId}}\nAuthorization: Basic {{basicAuth}}\nContent-Type: application/json\n",
+			"url": "{{url}}/v1/campaigns/pages",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1444235482548,
+			"name": "RegisterCampaignFundraisingPage",
+			"description": "Register fundraising page for Campaign",
+			"collectionId": "ebd04b97-05c2-9a28-2ec5-210f5b502578",
+			"rawModeData": "{\r\n  \"reference\": null,\r\n  \"charityId\": 2357,\r\n  \"eventId\": 355883,\r\n  \"pageShortName\": \"my-test-pagewt_FX1quj0u8P-bBgJXSFQ\",\r\n  \"pageTitle\": \"my test page title\",\r\n  \"activityType\": null,\r\n  \"targetAmount\": 2000.0,\r\n  \"justGivingOptIn\": false,\r\n  \"charityOptIn\": false,\r\n  \"eventDate\": null,\r\n  \"eventName\": null,\r\n  \"attribution\": null,\r\n  \"charityFunded\": false,\r\n  \"causeId\": 1245585,\r\n  \"companyAppealId\": null,\r\n  \"expiryDate\": null,\r\n  \"pageStory\": \"This is my custom page story, which will override the default.\",\r\n  \"pageSummaryWhat\": null,\r\n  \"pageSummaryWhy\": null,\r\n  \"customCodes\": {},\r\n  \"images\": [\r\n    {\r\n      \"caption\": \"Lyr\",\r\n      \"url\": \"http://cdn.head-fi.org/5/5e/5ee30ce0_lyr-group-6401.jpg\",\r\n      \"isDefault\": true\r\n    },\r\n    {\r\n      \"caption\": \"Valhalla\",\r\n      \"url\": \"http://assets.head-fi.org/e/e4/e42e1df0_DSC02261.JPG\",\r\n      \"isDefault\": false\r\n    }\r\n  ],\r\n  \"videos\": [\r\n    {\r\n      \"caption\": \"There's nobody here\",\r\n      \"url\": \"http://www.youtube.com/watch?v=-RFunvF0mDw\"\r\n    }\r\n  ],\r\n  \"rememberedPersonReference\": null,\r\n  \"consistentErrorResponses\": false,\r\n  \"teamId\": 1234,\r\n  \"currency\": \"GBP\"\r\n}"
+		}
+	]
+}
