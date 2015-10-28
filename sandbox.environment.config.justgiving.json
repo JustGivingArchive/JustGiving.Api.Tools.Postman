@@ -4,7 +4,7 @@
   "values": [
     {
       "key": "url",
-      "value": "https://api-sandbox.justgiving.com",
+      "value": "https://api.sandbox.justgiving.com",
       "type": "text"
     },
     {
