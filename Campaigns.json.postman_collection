@@ -1,0 +1,82 @@
+{
+	"id": "48d2b73d-7e3e-650d-1c51-6c9b146438d9",
+	"name": "Campaigns",
+	"description": "",
+	"order": [
+		"d1082320-1142-8006-ab53-72e2583efe3f",
+		"6a5a69e7-c884-5dda-26d6-4dc699c3792f",
+		"586a1c7f-10e5-e83d-7cdb-c7fe857dc0bb"
+	],
+	"folders": [],
+	"timestamp": 1446815006778,
+	"owner": "87616",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "586a1c7f-10e5-e83d-7cdb-c7fe857dc0bb",
+			"headers": "x-api-key: {{appId}}\nContent-Type: application/json\nAuthorization: Basic {{basicAuth}}\n",
+			"url": "{{url}}/{{appId}}/v1/campaigns/pages",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"username": "swami.mohan@justgiving.com",
+				"password": "testing",
+				"saveToRequest": true,
+				"id": "basic",
+				"timestamp": 1446546185145
+			},
+			"time": 1446818325459,
+			"name": "RegisterCampaignFundraisingPage",
+			"description": "Registers a Fundraising Page on the JustGiving.com website, for example www.justgiving.com/John-Vaughan-Fowler.\n\nWhen registering a page on JustGiving.com you *either* register a page for an event or an activity. If you try and register a page for an event and an activity you will get a validation error. This is a common source of errors. If you're supplying an eventId you must not supply an eventName, eventDate or activityType. If you want an event to be auto-generated for your fundraising page, you must not supply an event Id and supply eventName/eventDate/activityType instead.",
+			"collectionId": "48d2b73d-7e3e-650d-1c51-6c9b146438d9",
+			"responses": [],
+			"rawModeData": "{\r\n  \"reference\": null,\r\n  \"charityId\": 2357,\r\n  \"eventId\": 355883,\r\n  \"pageShortName\": \"my-test-pagewt_FX1quj0u8P-bBgJXSFQ\",\r\n  \"pageTitle\": \"my test page title\",\r\n  \"activityType\": null,\r\n  \"targetAmount\": 2000.0,\r\n  \"justGivingOptIn\": false,\r\n  \"charityOptIn\": false,\r\n  \"eventDate\": null,\r\n  \"eventName\": null,\r\n  \"attribution\": null,\r\n  \"charityFunded\": false,\r\n  \"causeId\": 1245585,\r\n  \"companyAppealId\": null,\r\n  \"expiryDate\": null,\r\n  \"pageStory\": \"This is my custom page story, which will override the default.\",\r\n  \"pageSummaryWhat\": null,\r\n  \"pageSummaryWhy\": null,\r\n  \"customCodes\": {},\r\n  \"images\": [\r\n    {\r\n      \"caption\": \"Lyr\",\r\n      \"url\": \"http://cdn.head-fi.org/5/5e/5ee30ce0_lyr-group-6401.jpg\",\r\n      \"isDefault\": true\r\n    },\r\n    {\r\n      \"caption\": \"Valhalla\",\r\n      \"url\": \"http://assets.head-fi.org/e/e4/e42e1df0_DSC02261.JPG\",\r\n      \"isDefault\": false\r\n    }\r\n  ],\r\n  \"videos\": [\r\n    {\r\n      \"caption\": \"There's nobody here\",\r\n      \"url\": \"http://www.youtube.com/watch?v=-RFunvF0mDw\"\r\n    }\r\n  ],\r\n  \"rememberedPersonReference\": null,\r\n  \"consistentErrorResponses\": false,\r\n  \"teamId\": 1234,\r\n  \"currency\": \"GBP\"\r\n}"
+		},
+		{
+			"id": "6a5a69e7-c884-5dda-26d6-4dc699c3792f",
+			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+			"url": "{{url}}/{{appId}}/v1/campaigns/{charityShortName}/{campaignShortUrl}",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "48d2b73d-7e3e-650d-1c51-6c9b146438d9",
+			"data": [],
+			"dataMode": "params",
+			"name": "GetCampaignDetails",
+			"description": "Lists all fundraising Pages for the authenticated user.",
+			"descriptionFormat": "html",
+			"time": 1446816830216,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d1082320-1142-8006-ab53-72e2583efe3f",
+			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+			"url": "{{url}}/{{appId}}/v1/campaigns/{charityShortName}/{campaignShortUrl}/pages",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1446815310274,
+			"name": "GetPagesForCampaigns",
+			"description": "Lists all fundraising Pages for the authenticated user.",
+			"collectionId": "48d2b73d-7e3e-650d-1c51-6c9b146438d9",
+			"responses": []
+		}
+	]
+}
