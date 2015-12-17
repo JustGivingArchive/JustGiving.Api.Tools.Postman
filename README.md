@@ -1,7 +1,7 @@
 JustGiving.Api.Tools.Postman
 ============================
 
-Configuration and Collection files for the [Postman Chrome app](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en).
+Configuration and Collection files for the [Postman Chrome app](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop).
 
 Importing the `*.postman_collection.json` files found here into Postman will add JustGiving API methods categorized by resource, aligning with the JustGiving [API documentation](https://api.justgiving.com/docs).
 
