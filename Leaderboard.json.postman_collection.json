@@ -1,35 +1,51 @@
 {
-  "id": "2c3180ea-6cb4-10cf-f0da-1e4bc87d5c0b",
-  "name": "JustGiving - Leaderboard",
-  "timestamp": 1434549141041,
-  "requests": [
-    {
-      "collectionId": "2c3180ea-6cb4-10cf-f0da-1e4bc87d5c0b",
-      "id": "4f939df8-c674-294d-03af-7a8fc47589fd",
-      "name": "GetEventLeaderboard",
-      "description": "",
-      "url": "{{url}}/v1/event/{eventId}/leaderboard",
-      "method": "GET",
-      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "",
-      "dataMode": "raw",
-      "timestamp": 0,
-      "version": 2,
-      "time": 1436282005903
-    },
-    {
-      "collectionId": "2c3180ea-6cb4-10cf-f0da-1e4bc87d5c0b",
-      "id": "9c0af7ae-2bb1-7032-ed81-724bdf91d5bf",
-      "name": "GetCharityLeaderboard",
-      "description": "",
-      "url": "{{url}}/v1/charity/{charityId}/leaderboard",
-      "method": "GET",
-      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "",
-      "dataMode": "raw",
-      "timestamp": 0,
-      "version": 2,
-      "time": 1436281980409
-    }
-  ]
+	"id": "3aa6a521-998f-5f8a-92ec-d64c04f3f980",
+	"name": "JustGiving - Leaderboard",
+	"timestamp": 1434549141041,
+	"order": [
+		"0f65a933-04cb-6445-6385-4801de2e07cf",
+		"18141c73-6fa7-59b4-9763-4000146159c4"
+	],
+	"owner": 0,
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "0f65a933-04cb-6445-6385-4801de2e07cf",
+			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+			"url": "{{url}}/v1/event/{eventId}/leaderboard?currency ={value}",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470753812145,
+			"name": "GetEventLeaderboard",
+			"description": "",
+			"collectionId": "3aa6a521-998f-5f8a-92ec-d64c04f3f980",
+			"rawModeData": ""
+		},
+		{
+			"id": "18141c73-6fa7-59b4-9763-4000146159c4",
+			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+			"url": "{{url}}/v1/charity/{charityId}/leaderboard?currency ={value}",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470753787096,
+			"name": "GetCharityLeaderboard",
+			"description": "",
+			"collectionId": "3aa6a521-998f-5f8a-92ec-d64c04f3f980",
+			"rawModeData": ""
+		}
+	]
 }

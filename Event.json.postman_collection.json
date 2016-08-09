@@ -1,22 +1,41 @@
 {
-	"id": "9c26900b-11af-9ad3-3d87-849a2719c739",
+	"id": "421eae02-351d-1bb4-a190-5683ec8a4c0c",
 	"name": "JustGiving - Event",
 	"description": "",
 	"order": [
-		"3b3fe5e1-5cfa-8eaa-e2a0-47ffe7ebfcc8",
-		"8dbddac1-ebec-2396-8f5c-cb52f0aca9d7",
-		"0698940a-5a1c-88c2-e826-49f378487348",
-		"789af3d2-5169-f432-afe1-5bdcd0eb203f"
+		"a8b5c850-6446-79d1-66a0-1172b916dafa",
+		"1c3008df-6de4-cf14-89d8-d43f0f7b9960",
+		"4fccee7e-0e36-c1a0-4596-44cc57004f1b",
+		"7062d6e2-6d96-2dd8-550f-2a2a31e659f7"
 	],
 	"folders": [],
 	"timestamp": 1404828531684,
 	"owner": 0,
-	"remoteLink": "",
 	"public": false,
+	"hasRequests": true,
 	"requests": [
 		{
-			"collectionId": "9c26900b-11af-9ad3-3d87-849a2719c739",
-			"id": "0698940a-5a1c-88c2-e826-49f378487348",
+			"id": "1c3008df-6de4-cf14-89d8-d43f0f7b9960",
+			"headers": "x-api-key: {{appId}}\nContent-Type: application/json\n",
+			"url": "{{url}}/v1/event/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470752708122,
+			"name": "RegisterEvent",
+			"description": "Creates an event on JustGiving allowing you to programatically create pages for events you manage. Currently, these events will not show up in the JustGiving event search, this functionality will expand in the future. Please try to prevent creating duplicate events, or duplicate existing events (don't create your own London Marathon event!)",
+			"collectionId": "421eae02-351d-1bb4-a190-5683ec8a4c0c",
+			"rawModeData": "{\n  \"name\": \"Playing Mario for 48 hours for charity\",\n  \"description\": \"Playing Mario for charity\",\n  \"id\": 12356,\n  \"completionDate\": \"\\/Date(1455813144563+0000)\\/\",\n  \"expiryDate\": \"\\/Date(1455813144563+0000)\\/\",\n  \"startDate\": \"\\/Date(1424449944563+0000)\\/\",\n  \"eventType\": \"OtherCelebration\",\n  \"location\": \"My Living room\",\n  \"charityId\": null\n}"
+		},
+		{
+			"collectionId": "421eae02-351d-1bb4-a190-5683ec8a4c0c",
+			"id": "4fccee7e-0e36-c1a0-4596-44cc57004f1b",
 			"name": "GetEventById",
 			"description": "Retrieves an event.",
 			"url": "{{url}}/v1/event/{eventId}",
@@ -32,24 +51,7 @@
 			"rawModeData": ""
 		},
 		{
-			"collectionId": "9c26900b-11af-9ad3-3d87-849a2719c739",
-			"id": "3b3fe5e1-5cfa-8eaa-e2a0-47ffe7ebfcc8",
-			"name": "GetPagesForEvent",
-			"description": "Retrieves a collection of page summaries that are assigned to a specific event",
-			"url": "{{url}}/v1/event/{eventId}/pages",
-			"method": "GET",
-			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-			"data": [],
-			"dataMode": "raw",
-			"timestamp": 0,
-			"version": 2,
-			"time": 1425179876337,
-			"preRequestScript": "",
-			"tests": "",
-			"rawModeData": ""
-		},
-		{
-			"id": "789af3d2-5169-f432-afe1-5bdcd0eb203f",
+			"id": "7062d6e2-6d96-2dd8-550f-2a2a31e659f7",
 			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
 			"url": "{{url}}/v1/event/types",
 			"preRequestScript": "",
@@ -64,25 +66,25 @@
 			"time": 1442488325423,
 			"name": "GetEventTypes",
 			"description": "Gets all event types that can be used when creating an event.",
-			"collectionId": "9c26900b-11af-9ad3-3d87-849a2719c739",
+			"collectionId": "421eae02-351d-1bb4-a190-5683ec8a4c0c",
 			"responses": []
 		},
 		{
-			"collectionId": "9c26900b-11af-9ad3-3d87-849a2719c739",
-			"id": "8dbddac1-ebec-2396-8f5c-cb52f0aca9d7",
-			"name": "RegisterEvent",
-			"description": "Creates an event on JustGiving allowing you to programatically create pages for events you manage. Currently, these events will not show up in the JustGiving event search, this functionality will expand in the future. Please try to prevent creating duplicate events, or duplicate existing events (don't create your own London Marathon event!)",
-			"url": "{{url}}/v1/event/",
-			"method": "POST",
-			"headers": "x-api-key: {{appId}}\nContent-Type: application/json\n",
+			"collectionId": "421eae02-351d-1bb4-a190-5683ec8a4c0c",
+			"id": "a8b5c850-6446-79d1-66a0-1172b916dafa",
+			"name": "GetPagesForEvent",
+			"description": "Retrieves a collection of page summaries that are assigned to a specific event",
+			"url": "{{url}}/v1/event/{eventId}/pages",
+			"method": "GET",
+			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
 			"data": [],
 			"dataMode": "raw",
 			"timestamp": 0,
 			"version": 2,
-			"time": 1424277225171,
+			"time": 1425179876337,
 			"preRequestScript": "",
 			"tests": "",
-			"rawModeData": "{\n  \"name\": \"Playing Mario for 48 hours for charity\",\n  \"description\": \"Playing Mario for charity\",\n  \"id\": 12356,\n  \"completionDate\": \"\\/Date(1455813144563+0000)\\/\",\n  \"expiryDate\": \"\\/Date(1455813144563+0000)\\/\",\n  \"startDate\": \"\\/Date(1424449944563+0000)\\/\",\n  \"eventType\": \"OtherCelebration\",\n  \"location\": \"My Living room\"\n}"
+			"rawModeData": ""
 		}
 	]
 }

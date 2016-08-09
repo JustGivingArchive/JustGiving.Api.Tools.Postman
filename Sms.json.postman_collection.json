@@ -1,54 +1,67 @@
 {
-  "id": "8a6ab163-709e-c8b1-c109-9f1407b36cae",
-  "name": "JustGiving - Sms",
-  "timestamp": 1404828604189,
-  "requests": [
-    {
-      "collectionId": "8a6ab163-709e-c8b1-c109-9f1407b36cae",
-      "id": "659028d8-b8c1-342a-18e0-fe9a8903f755",
-      "name": "UpdatePageSmsCode",
-      "description": "Updates the SMS short code for a fundraising page.",
-      "url": "{{url}}/v1/fundraising/pages/{pageShortName}/sms",
-      "method": "PUT",
-      "headers": "x-api-key: {{appId}}\nContent-Type: application/json\nAuthorization: Basic {{basicAuth}}\n",
-      "data": "{\n    \"urn\": \"WWUI92\"\n}",
-      "dataMode": "raw",
-      "timestamp": 0,
-      "version": 2,
-      "time": 1425352960838
-    },
-    {
-      "collectionId": "8a6ab163-709e-c8b1-c109-9f1407b36cae",
-      "id": "b86bc449-801a-5d2c-3426-e5f6220c286c",
-      "name": "CheckSmsCodeAvailability",
-      "description": "Checks if an SMS short code is available, and suggests alteratives if not.",
-      "url": "{{url}}/v1/sms/urn/{urn}/check",
-      "method": "POST",
-      "headers": "x-api-key: {{appId}}\nContent-Type: application/json\nAuthorization: Basic {{basicAuth}}\n",
-      "data": "",
-      "dataMode": "raw",
-      "timestamp": 0,
-      "version": 2,
-      "time": 1425353186968
-    },
-    {
-      "collectionId": "8a6ab163-709e-c8b1-c109-9f1407b36cae",
-      "id": "eac345ba-1282-930b-35d1-6e427b2a8661",
-      "name": "RetrievePageSmsCode",
-      "description": "Retrieves the SMS short code for a fundraising page.",
-      "url": "{{url}}/v1/fundraising/pages/{pageShortName}/sms",
-      "method": "GET",
-      "headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-      "data": "",
-      "dataMode": "raw",
-      "timestamp": 0,
-      "version": 2,
-      "time": 1425352885063
-    }
-  ],
-  "order": [
-    "eac345ba-1282-930b-35d1-6e427b2a8661",
-    "659028d8-b8c1-342a-18e0-fe9a8903f755",
-    "b86bc449-801a-5d2c-3426-e5f6220c286c"
-  ]
+	"id": "21c8390a-e8ac-65e3-a4e4-9e809bdf2c2d",
+	"name": "JustGiving - Sms",
+	"timestamp": 1404828604189,
+	"order": [
+		"75a99111-76d0-2fa8-9368-643d24779dac",
+		"cf0cea49-bd34-f511-3fc0-36619234322b",
+		"5190c083-cf3d-eaa5-6ca3-e285cd2f8cf5"
+	],
+	"owner": 0,
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "5190c083-cf3d-eaa5-6ca3-e285cd2f8cf5",
+			"headers": "x-api-key: {{appId}}\nContent-Type: application/json\n",
+			"url": "{{url}}/v1/sms/urn/{urn}/check",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470754496434,
+			"name": "CheckSmsCodeAvailability",
+			"description": "Checks if an SMS short code is available, and suggests alteratives if not.",
+			"collectionId": "21c8390a-e8ac-65e3-a4e4-9e809bdf2c2d",
+			"rawModeData": ""
+		},
+		{
+			"collectionId": "21c8390a-e8ac-65e3-a4e4-9e809bdf2c2d",
+			"id": "75a99111-76d0-2fa8-9368-643d24779dac",
+			"name": "RetrievePageSmsCode",
+			"description": "Retrieves the SMS short code for a fundraising page.",
+			"url": "{{url}}/v1/fundraising/pages/{pageShortName}/sms",
+			"method": "GET",
+			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+			"data": [],
+			"dataMode": "raw",
+			"timestamp": 0,
+			"version": 2,
+			"time": 1425352885063,
+			"preRequestScript": "",
+			"tests": "",
+			"rawModeData": ""
+		},
+		{
+			"collectionId": "21c8390a-e8ac-65e3-a4e4-9e809bdf2c2d",
+			"id": "cf0cea49-bd34-f511-3fc0-36619234322b",
+			"name": "UpdatePageSmsCode",
+			"description": "Updates the SMS short code for a fundraising page.",
+			"url": "{{url}}/v1/fundraising/pages/{pageShortName}/sms",
+			"method": "PUT",
+			"headers": "x-api-key: {{appId}}\nContent-Type: application/json\nAuthorization: Basic {{basicAuth}}\n",
+			"data": [],
+			"dataMode": "raw",
+			"timestamp": 0,
+			"version": 2,
+			"time": 1425352960838,
+			"preRequestScript": "",
+			"tests": "",
+			"rawModeData": "{\n    \"urn\": \"WWUI92\"\n}"
+		}
+	]
 }

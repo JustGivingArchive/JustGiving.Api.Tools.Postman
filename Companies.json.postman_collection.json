@@ -1,20 +1,21 @@
 {
-	"id": "716c7518-ff84-02ee-9c90-a6ae5dd603cf",
+	"id": "7af1d3e5-1e66-0b34-527d-43fe5c4ec3ab",
 	"name": "JustGiving - Companies",
 	"description": "",
 	"order": [
-		"fad50f60-2042-ec97-fbc1-3404b6fb5029"
+		"09d105a0-4b72-a3dd-b5c3-5471fbebf596",
+		"c5a8dc72-ac5e-8f5a-ea62-a4df4ec8b2af"
 	],
 	"folders": [],
 	"timestamp": 1441973478461,
 	"owner": 0,
-	"remoteLink": "",
 	"public": false,
+	"published": false,
 	"requests": [
 		{
-			"id": "fad50f60-2042-ec97-fbc1-3404b6fb5029",
+			"id": "09d105a0-4b72-a3dd-b5c3-5471fbebf596",
 			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
-			"url": "{{url}}/v1/companies/appeal/{companyAppealId}/pages?page=1&pageSize=20",
+			"url": "{{url}}/v1/companies/appeal/{companyPageShortName}/pages?page=1&pageSize=20",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -24,10 +25,28 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1441973850744,
+			"time": 1470752146404,
 			"name": "GetPagesForCompanyAppeal",
 			"description": "A list of allowable countries for use when registering a new user account. You can use either the country name or its corresponding ISO 3166-1 two-letter country code.",
-			"collectionId": "716c7518-ff84-02ee-9c90-a6ae5dd603cf"
+			"collectionId": "7af1d3e5-1e66-0b34-527d-43fe5c4ec3ab"
+		},
+		{
+			"id": "c5a8dc72-ac5e-8f5a-ea62-a4df4ec8b2af",
+			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+			"url": "{{url}}/v1/companies/appeal/{companyPageShortName}",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1470752187621,
+			"name": "GetCompanyAppealDetails",
+			"description": "Retrieves information for a company appeal (company page).",
+			"collectionId": "7af1d3e5-1e66-0b34-527d-43fe5c4ec3ab"
 		}
 	]
 }
