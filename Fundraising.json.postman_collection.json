@@ -1,7 +1,7 @@
 {
 	"id": "8b61c2ac-2a15-ed2b-49cf-758ec26f85f4",
 	"name": "JustGiving - Fundraising",
-	"timestamp": 1404828559060,
+	"description": "",
 	"order": [
 		"1688aa53-cd67-cc4c-1de7-a08444aa376c",
 		"a8289d57-6c40-5d8a-59a5-d2a0fb334fce",
@@ -28,11 +28,34 @@
 		"fe992d8c-fc59-cae9-3455-0cc5d6a05522",
 		"70dd8d82-8015-49e9-e536-5819178344d5",
 		"9a41071b-8717-eb03-cd97-2dc0d3305bd2",
-		"3a7742ae-6389-dd0f-4fc0-49675e63697e"
+		"3a7742ae-6389-dd0f-4fc0-49675e63697e",
+		"0d0093ea-b694-8560-4af7-c75159ce753f"
 	],
+	"folders": [],
+	"timestamp": 1404828559060,
 	"owner": 0,
-	"hasRequests": true,
+	"public": false,
+	"published": false,
 	"requests": [
+		{
+			"id": "0d0093ea-b694-8560-4af7-c75159ce753f",
+			"headers": "x-api-key: {{appId}}\nAccept: application/json\n",
+			"url": "{{url}}/v1/fundraising/pagebyid/{{pageId}}",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1471256523723,
+			"name": "GetFundraisingPageDetailsById",
+			"description": "Gets the details of a fundraising page by ID.",
+			"collectionId": "8b61c2ac-2a15-ed2b-49cf-758ec26f85f4",
+			"rawModeData": ""
+		},
 		{
 			"collectionId": "8b61c2ac-2a15-ed2b-49cf-758ec26f85f4",
 			"id": "12b6c212-d9b2-ad8b-e491-0ecc80d2d9de",
